@@ -1,0 +1,36 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)" #mandatory (28 is current forge version)
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+# The modid of the mod
+modId="specters" #mandatory
+# The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
+version="0.1.0" #mandatory
+ # A display name for the mod
+displayName="Specters" #mandatory
+# A text field displayed in the mod UI
+credits="Nobody yet, but you can become one of them!" #optional
+# A text field displayed in the mod UI
+authors="Yulivee/Njorgrim, Flandoll" #optional
+description='''
+WIP
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.specters]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[28,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.specters]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
