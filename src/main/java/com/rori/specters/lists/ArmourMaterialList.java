@@ -9,6 +9,12 @@ import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 
+/* HOW TO ADD ARMOUR MATERIALS:
+ * Simply add a new material with the constructor below.
+ * For the actual effects of the different values, refer to minecraft's own documentation for finetuning (for example for enchantability)
+ * The rest should be self-explanatory.
+ */
+
 public enum ArmourMaterialList implements IArmorMaterial {
 	silver("silver", 400, new int[] {8, 10, 9, 7}, 25, ItemList.silver_ingot, "entity.egg.throw", 1.0f);
 	

@@ -4,6 +4,12 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
 
+/* HOW TO ADD TOOL MATERIALS:
+ * Simply add a new material with the constructor below.
+ * For the actual effects of the different values, refer to minecraft's own documentation for finetuning (for example for enchantability)
+ * The rest should be self-explanatory.
+ */
+
 public enum ToolMaterialList implements IItemTier {
 	silver(7.0f, 9.0f, 1000, 3, 25, ItemList.silver_ingot);
 	
