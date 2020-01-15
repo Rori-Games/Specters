@@ -1,0 +1,17 @@
+{
+	//Items
+	"item.specters.silver_ingot": "Silver Ingot",
+	
+	//Tools
+	"item.specters.silver_axe": "Silver Axe",
+	"item.specters.silver_pickaxe": "Silver Pickaxe",
+	"item.specters.silver_hoe": "Silver Hoe",
+	"item.specters.silver_shovel": "Silver Shovel",
+	"item.specters.silver_Sword": "Silver Sword",	
+	
+	//Blocks
+	"block.specters.silver_block": "Silver Block",
+	
+	//Item Groups
+	"itemGroup.specters" : "Specters"
+}
