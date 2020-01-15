@@ -9,8 +9,15 @@
 	"item.specters.silver_shovel": "Silver Shovel",
 	"item.specters.silver_sword": "Silver Sword",	
 	
+	//Armour
+	"item.specters.silver_helmet": "Silver Helmet",
+	"item.specters.silver_chestplate": "Silver Chestplate",
+	"item.specters.silver_leggings": "Silver Leggings",
+	"item.specters.silver_boots": "Silver Boots",
+	
 	//Blocks
 	"block.specters.silver_block": "Silver Block",
+	"block.specters.silver_ore": "Silver Ore",
 	
 	//Item Groups
 	"itemGroup.specters" : "Specters"

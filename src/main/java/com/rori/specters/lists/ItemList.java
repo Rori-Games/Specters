@@ -13,6 +13,13 @@ public class ItemList {
 	public static Item silver_shovel;
 	public static Item silver_sword;
 	
+	//Armour
+	public static Item silver_helmet;
+	public static Item silver_chestplate;
+	public static Item silver_leggings;
+	public static Item silver_boots;
+	
 	//Blocks
 	public static Item silver_block;
+	public static Item silver_ore;
 }
