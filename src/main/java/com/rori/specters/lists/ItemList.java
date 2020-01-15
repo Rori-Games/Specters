@@ -5,6 +5,7 @@ import net.minecraft.item.Item;
 public class ItemList {
 	//Items
 	public static Item silver_ingot;
+	public static Item purple_gem;
 	
 	//Tools
 	public static Item silver_axe;
@@ -22,4 +23,5 @@ public class ItemList {
 	//Blocks
 	public static Item silver_block;
 	public static Item silver_ore;
+
 }

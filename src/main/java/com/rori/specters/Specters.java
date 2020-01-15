@@ -64,6 +64,7 @@ public class Specters {
 			event.getRegistry().registerAll(
 			//Items
 			ItemList.silver_ingot = new Item(new Item.Properties().group(spectersIG)).setRegistryName(location("silver_ingot")),
+			ItemList.purple_gem = new Item(new Item.Properties().group(spectersIG)).setRegistryName(location("purple_gem")),
 			
 			//Tools
 			ItemList.silver_axe = new AxeItem(ToolMaterialList.silver, -1.0f, 6.0f, new Item.Properties().group(spectersIG)).setRegistryName(location("silver_axe")),
