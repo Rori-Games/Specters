@@ -2,6 +2,17 @@ package com.rori.specters.lists;
 
 import net.minecraft.item.Item;
 
+/* HOW TO ADD ITEMS:
+ * Add a new public static Item with the slug name here.
+ * Register the Item inside of the registerItems function.
+ * Add an entry inside of the langfiles in lang.
+ * Add an item model inside of models/item
+ * Add the texture inside of textures/item
+ * 
+ * As a basis, silver_ingot can be used as an example for all items. For tools and armour use silver_sword and silver_chestplate respectively
+ * Simply copypaste any .json files or respective code lines and replace any silver_ingot entries with the new item's slug.
+ */
+
 public class ItemList {
 	//Items
 	public static Item silver_ingot;
